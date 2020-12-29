@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmscam02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmscgats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmscnvrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmserr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsgamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsgmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsintrp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsio0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsio1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmslut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsmd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsmtrx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsnamed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmspack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmspcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsplugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsps2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmssamp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmssm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmstypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsvirt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmswtpnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\src\cmsxform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\include\lcms2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\include\lcms2_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab3\thirdparty\liblcms2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3E98D6A7-E2AE-35B7-B3D3-D7BB4D4CBF5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D089AFE5-4265-3C51-BF7F-F0153B57AA36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

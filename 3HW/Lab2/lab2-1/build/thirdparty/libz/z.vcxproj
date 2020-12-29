@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1779D977-591A-31AF-96F5-5A623FD3F7FB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>z</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">z.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">z.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">z.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">z.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;NO_FSEEKO;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\thirdparty\libz;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libz/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\adler32.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\compress.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\crc32.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\deflate.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\gzclose.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\gzlib.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\gzread.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\gzwrite.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\inflate.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\infback.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\inftrees.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\inffast.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\trees.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\uncompr.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\zutil.c" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\include\zlib.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\include\zconf.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\crc32.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\deflate.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\gzguts.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\inffast.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\inffixed.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\inflate.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\inftrees.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\trees.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libz\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\has163\DESKTOP\lab2\build\ZERO_CHECK.vcxproj">
+      <Project>{8612800A-1E17-38FF-BBCC-897D55A16A89}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

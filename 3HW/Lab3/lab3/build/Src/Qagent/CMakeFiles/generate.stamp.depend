@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindCUDA/run_nvcc.cmake
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/CMakeLists.txt
+C:/Users/has163/DESKTOP/lab3/build/Src/Qagent/CMakeFiles/qagent.dir/qagent_generated_agent.cu.obj.cmake.pre-gen
+C:/Users/has163/DESKTOP/lab3/build/Src/Qagent/CMakeFiles/qagent.dir/qagent_generated_agent.cu.obj.depend

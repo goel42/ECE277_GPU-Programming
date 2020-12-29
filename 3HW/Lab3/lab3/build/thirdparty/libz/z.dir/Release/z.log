@@ -1,0 +1,49 @@
+﻿  Building Custom Rule C:/Users/has163/DESKTOP/lab3/thirdparty/libz/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/has163/DESKTOP/lab3/build/thirdparty/libz/CMakeFiles/generate.stamp is up-to-date.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(160): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(516): note: see declaration of 'open'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(184): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(503): note: see declaration of 'lseek'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(268): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(503): note: see declaration of 'lseek'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(309): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(503): note: see declaration of 'lseek'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(404): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(503): note: see declaration of 'lseek'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(514): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(515): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\has163\desktop\lab3\thirdparty\libz\gzlib.c(516): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  gzread.c
+c:\users\has163\desktop\lab3\thirdparty\libz\gzread.c(31): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzread.c(37): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(181): note: see declaration of 'strerror'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzread.c(650): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+  gzwrite.c
+c:\users\has163\desktop\lab3\thirdparty\libz\gzwrite.c(79): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(558): note: see declaration of 'write'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzwrite.c(81): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(181): note: see declaration of 'strerror'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzwrite.c(333): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1398): note: see declaration of '_vsnprintf'
+c:\users\has163\desktop\lab3\thirdparty\libz\gzwrite.c(528): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+  z.vcxproj -> C:\Users\has163\DESKTOP\lab3\build\thirdparty\lib\Release\libz.lib

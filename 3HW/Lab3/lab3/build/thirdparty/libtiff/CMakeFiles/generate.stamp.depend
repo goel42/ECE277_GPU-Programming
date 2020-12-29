@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/TestBigEndian.cmake
+C:/Users/has163/DESKTOP/lab3/thirdparty/libtiff/CMakeLists.txt
+C:/Users/has163/DESKTOP/lab3/thirdparty/libtiff/test_inline.c
+C:/Users/has163/DESKTOP/lab3/thirdparty/libtiff/tif_config.h.cmake.in
+C:/Users/has163/DESKTOP/lab3/thirdparty/libtiff/tiffconf.h.cmake.in

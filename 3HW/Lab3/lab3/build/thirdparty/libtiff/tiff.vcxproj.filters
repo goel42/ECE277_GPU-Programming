@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_aux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_close.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_dir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_dirinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_dirread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_dirwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_dumpmode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_fax3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_fax3sm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_flush.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_getimage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_jbig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_jpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_luv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_lzw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_next.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_ojpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_open.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_packbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_pixarlog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_predict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_strip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_swab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_thunder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_tile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_warning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_jpeg_12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_lzma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\t4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tiffiop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_dir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_fax3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\tif_predict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\uvcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab3\thirdparty\libtiff\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3E98D6A7-E2AE-35B7-B3D3-D7BB4D4CBF5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D089AFE5-4265-3C51-BF7F-F0153B57AA36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

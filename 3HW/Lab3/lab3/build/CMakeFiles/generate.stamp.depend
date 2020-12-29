@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/WindowsPaths.cmake
+C:/Users/has163/DESKTOP/lab3/CMakeLists.txt
+C:/Users/has163/DESKTOP/lab3/build/CMakeFiles/3.12.4/CMakeCCompiler.cmake
+C:/Users/has163/DESKTOP/lab3/build/CMakeFiles/3.12.4/CMakeCXXCompiler.cmake
+C:/Users/has163/DESKTOP/lab3/build/CMakeFiles/3.12.4/CMakeRCCompiler.cmake
+C:/Users/has163/DESKTOP/lab3/build/CMakeFiles/3.12.4/CMakeSystem.cmake
+C:/Users/has163/DESKTOP/lab3/cmake/FindFREEGLUT.cmake
+C:/Users/has163/DESKTOP/lab3/cmake/FindGLEW.cmake
+C:/Users/has163/DESKTOP/lab3/cmake/FindNVTX.cmake

@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{83D5B899-641E-3A47-89E9-8816A057B1C2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>tiff</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tiff.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tiff.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tiff.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tiff.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff;C:\Users\has163\DESKTOP\lab2\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libtiff/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libtiff/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libtiff/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-file C:/Users/has163/DESKTOP/lab2/build/thirdparty/libtiff/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/has163/DESKTOP/lab2/thirdparty/libtiff/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\t4.h" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffiop.h" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_aux.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_close.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_codec.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_color.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_compress.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_dir.c" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_dir.h" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_dirinfo.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_dirread.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_dirwrite.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_dumpmode.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_error.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_extension.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_fax3.c" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_fax3.h" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_fax3sm.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_flush.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_getimage.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_jbig.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_jpeg.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_luv.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_lzw.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_next.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_ojpeg.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_open.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_packbits.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_pixarlog.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_predict.c" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_predict.h" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_print.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_read.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_strip.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_swab.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_thunder.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_tile.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_version.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_warning.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_write.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_zip.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_jpeg_12.c" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_lzma.c" />
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\uvcode.h" />
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_win32.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\has163\DESKTOP\lab2\build\ZERO_CHECK.vcxproj">
+      <Project>{8612800A-1E17-38FF-BBCC-897D55A16A89}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

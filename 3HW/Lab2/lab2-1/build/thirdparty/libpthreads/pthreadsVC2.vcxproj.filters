@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\attr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\barrier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\cancel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\cleanup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\condvar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\create.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\dll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\autostatic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\errno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\exit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\fork.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\mutex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\nonportable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\rwlock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\sched.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\semaphore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\signal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\spin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\sync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\tsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\pthread.h">
+      <Filter>PTHREAD_API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\sched.h">
+      <Filter>PTHREAD_API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\semaphore.h">
+      <Filter>PTHREAD_API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\pthreads-win32\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PTHREAD_API">
+      <UniqueIdentifier>{2981ADA0-F46C-3AFA-BBC8-873A2211ACBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A5BEE9C2-72E7-3475-A90A-3A4A48A7BF07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

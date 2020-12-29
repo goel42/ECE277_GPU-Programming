@@ -1,0 +1,30 @@
+﻿  Building Custom Rule C:/Users/has163/DESKTOP/lab3/thirdparty/liblcms2/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/has163/DESKTOP/lab3/build/thirdparty/liblcms2/CMakeFiles/generate.stamp is up-to-date.
+  cmscam02.c
+  cmscgats.c
+  cmscnvrt.c
+  cmserr.c
+  cmsgamma.c
+  cmsgmt.c
+  cmsintrp.c
+  cmsio0.c
+  cmsio1.c
+  cmslut.c
+  cmsmd5.c
+  cmsmtrx.c
+  cmsnamed.c
+  cmsopt.c
+  cmspack.c
+  cmspcs.c
+  cmsplugin.c
+  cmsps2.c
+  cmssamp.c
+  cmssm.c
+  Generating Code...
+  Compiling...
+  cmstypes.c
+  cmsvirt.c
+  cmswtpnt.c
+  cmsxform.c
+  Generating Code...
+  lcms2.vcxproj -> C:\Users\has163\DESKTOP\lab3\build\thirdparty\lib\Debug\liblcms2.lib

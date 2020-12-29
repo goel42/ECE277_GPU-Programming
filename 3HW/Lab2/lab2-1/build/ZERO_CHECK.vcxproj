@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8612800A-1E17-38FF-BBCC-897D55A16A89}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3686440af63ee8f4d02077ea823da07f\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/has163/DESKTOP/lab2/build/lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/3686440af63ee8f4d02077ea823da07f/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Qagent\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Top\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeSystem.cmake;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\qagent.dir\qagent_generated_agent.cu.obj.depend;C:\Users\has163\DESKTOP\lab2\cmake\FindFREEGLUT.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindGLEW.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindNVTX.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\liblcms2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpng\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpng\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\liblcms2\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpthreads\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Top\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/has163/DESKTOP/lab2/build/lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/3686440af63ee8f4d02077ea823da07f/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Qagent\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Top\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeSystem.cmake;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\qagent.dir\qagent_generated_agent.cu.obj.depend;C:\Users\has163\DESKTOP\lab2\cmake\FindFREEGLUT.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindGLEW.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindNVTX.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\liblcms2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpng\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpng\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\liblcms2\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpthreads\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Top\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/has163/DESKTOP/lab2/build/lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/3686440af63ee8f4d02077ea823da07f/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Qagent\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Top\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeSystem.cmake;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\qagent.dir\qagent_generated_agent.cu.obj.depend;C:\Users\has163\DESKTOP\lab2\cmake\FindFREEGLUT.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindGLEW.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindNVTX.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\liblcms2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpng\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpng\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\liblcms2\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpthreads\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Top\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/has163/DESKTOP/lab2 -BC:/Users/has163/DESKTOP/lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/has163/DESKTOP/lab2/build/lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/3686440af63ee8f4d02077ea823da07f/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Users\has163\DESKTOP\lab2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Qagent\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\Src\Top\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\3.12.4\CMakeSystem.cmake;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\qagent.dir\qagent_generated_agent.cu.obj.depend;C:\Users\has163\DESKTOP\lab2\cmake\FindFREEGLUT.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindGLEW.cmake;C:\Users\has163\DESKTOP\lab2\cmake\FindNVTX.cmake;C:\Users\has163\DESKTOP\lab2\thirdparty\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\liblcms2\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpng\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libpthreads\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\CMakeLists.txt;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\test_inline.c;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tif_config.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libtiff\tiffconf.h.cmake.in;C:\Users\has163\DESKTOP\lab2\thirdparty\libz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libz\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpng\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libtiff\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\liblcms2\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpthreads\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Qagent\CMakeFiles\generate.stamp;C:\Users\has163\DESKTOP\lab2\build\Src\Top\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

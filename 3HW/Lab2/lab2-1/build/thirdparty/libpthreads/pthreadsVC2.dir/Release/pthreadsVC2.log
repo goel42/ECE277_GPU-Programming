@@ -1,0 +1,30 @@
+﻿  Building Custom Rule C:/Users/has163/DESKTOP/lab2/thirdparty/libpthreads/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/has163/DESKTOP/lab2/build/thirdparty/libpthreads/CMakeFiles/generate.stamp is up-to-date.
+  attr.c
+  barrier.c
+  cancel.c
+  cleanup.c
+  condvar.c
+  create.c
+  dll.c
+  autostatic.c
+  errno.c
+  exit.c
+  fork.c
+  global.c
+  misc.c
+  mutex.c
+  nonportable.c
+  private.c
+  rwlock.c
+  sched.c
+  semaphore.c
+  signal.c
+  Generating Code...
+  Compiling...
+  spin.c
+  sync.c
+  tsd.c
+  Generating Code...
+     Creating library C:/Users/has163/DESKTOP/lab2/build/thirdparty/libpthreads/Release/pthreadsVC2.lib and object C:/Users/has163/DESKTOP/lab2/build/thirdparty/libpthreads/Release/pthreadsVC2.exp
+  pthreadsVC2.vcxproj -> C:\Users\has163\DESKTOP\lab2\build\thirdparty\libpthreads\Release\pthreadsVC2.dll

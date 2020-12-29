@@ -1,0 +1,796 @@
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_647eb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:32 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_647eb.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_647eb.dir\Debug\cmTC_647eb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_647eb.dir\Debug\cmTC_647eb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_647eb.dir\Debug\\" /Fd"cmTC_647eb.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckTypeSize\OFF64_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_647eb.dir\Debug\\" /Fd"cmTC_647eb.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckTypeSize\OFF64_T.c
+  OFF64_T.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(25): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(26): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(27): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(28): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(29): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(25): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(26): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(27): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(28): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\off64_t.c(29): error C2065: 'off64_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_647eb.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.57
+
+C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_57106.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:32 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_57106.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_57106.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_57106.dir\Debug\cmTC_57106.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_57106.dir\Debug\cmTC_57106.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57106.dir\Debug\\" /Fd"cmTC_57106.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57106.dir\Debug\\" /Fd"cmTC_57106.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_57106.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_57106.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_57106.lib" /MACHINE:X64  /machine:x64 cmTC_57106.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_57106.vcxproj]
+C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_57106.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_57106.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_57106.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_57106.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_57106.vcxproj]
+  C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_57106.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_57106.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b650a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:33 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_b650a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b650a.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b650a.dir\Debug\cmTC_b650a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b650a.dir\Debug\cmTC_b650a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b650a.dir\Debug\\" /Fd"cmTC_b650a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b650a.dir\Debug\\" /Fd"cmTC_b650a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_b650a.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_b650a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_b650a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_b650a.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.61
+
+
+Determining if files zlib.h exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ae494.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:37 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_ae494.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ae494.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ae494.dir\Debug\cmTC_ae494.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ae494.dir\Debug\cmTC_ae494.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae494.dir\Debug\\" /Fd"cmTC_ae494.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_ZLIB_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae494.dir\Debug\\" /Fd"cmTC_ae494.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_ZLIB_H.c
+  HAVE_ZLIB_H.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_zlib_h.c(2): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_ae494.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_ae494.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_ae494.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_zlib_h.c(2): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_ae494.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.58
+
+Source:
+/* */
+#include <zlib.h>
+
+
+int main(void){return 0;}
+
+Determining if files jpeglib.h exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_727a8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:37 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_727a8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_727a8.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_727a8.dir\Debug\cmTC_727a8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_727a8.dir\Debug\cmTC_727a8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_727a8.dir\Debug\\" /Fd"cmTC_727a8.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_JPEGLIB_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_727a8.dir\Debug\\" /Fd"cmTC_727a8.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_JPEGLIB_H.c
+  HAVE_JPEGLIB_H.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_jpeglib_h.c(2): fatal error C1083: Cannot open include file: 'jpeglib.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_727a8.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_727a8.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_727a8.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_jpeglib_h.c(2): fatal error C1083: Cannot open include file: 'jpeglib.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_727a8.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.57
+
+Source:
+/* */
+#include <jpeglib.h>
+
+
+int main(void){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c3074.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:39 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_c3074.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c3074.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c3074.dir\Debug\cmTC_c3074.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c3074.dir\Debug\cmTC_c3074.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3074.dir\Debug\\" /Fd"cmTC_c3074.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3074.dir\Debug\\" /Fd"cmTC_c3074.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
+  HAVE_DLFCN_H.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_dlfcn_h.c(2): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_c3074.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_c3074.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_c3074.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_dlfcn_h.c(2): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_c3074.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.57
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_758a4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:50 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_758a4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_758a4.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_758a4.dir\Debug\cmTC_758a4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_758a4.dir\Debug\cmTC_758a4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_758a4.dir\Debug\\" /Fd"cmTC_758a4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_758a4.dir\Debug\\" /Fd"cmTC_758a4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+  HAVE_STRINGS_H.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_strings_h.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_758a4.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_758a4.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_758a4.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_strings_h.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_758a4.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.61
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a4bb5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:53 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4bb5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a4bb5.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a4bb5.dir\Debug\cmTC_a4bb5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a4bb5.dir\Debug\cmTC_a4bb5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4bb5.dir\Debug\\" /Fd"cmTC_a4bb5.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4bb5.dir\Debug\\" /Fd"cmTC_a4bb5.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+  HAVE_SYS_TIME_H.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_sys_time_h.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4bb5.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4bb5.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4bb5.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_sys_time_h.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4bb5.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.55
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_74970.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:55 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_74970.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_74970.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_74970.dir\Debug\cmTC_74970.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_74970.dir\Debug\cmTC_74970.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74970.dir\Debug\\" /Fd"cmTC_74970.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74970.dir\Debug\\" /Fd"cmTC_74970.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+  HAVE_UNISTD_H.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_unistd_h.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_74970.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_74970.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_74970.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_unistd_h.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_74970.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.60
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e2779.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:57 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_e2779.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e2779.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e2779.dir\Debug\cmTC_e2779.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e2779.dir\Debug\cmTC_e2779.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2779.dir\Debug\\" /Fd"cmTC_e2779.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_IEEEFP_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2779.dir\Debug\\" /Fd"cmTC_e2779.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckIncludeFiles\HAVE_IEEEFP_H.c
+  HAVE_IEEEFP_H.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_ieeefp_h.c(2): fatal error C1083: Cannot open include file: 'ieeefp.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_e2779.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_e2779.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_e2779.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checkincludefiles\have_ieeefp_h.c(2): fatal error C1083: Cannot open include file: 'ieeefp.h': No such file or directory [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_e2779.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.60
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if the function getopt exists failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_16b02.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:58 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_16b02.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_16b02.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_16b02.dir\Debug\cmTC_16b02.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_16b02.dir\Debug\cmTC_16b02.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16b02.dir\Debug\\" /Fd"cmTC_16b02.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16b02.dir\Debug\\" /Fd"cmTC_16b02.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_16b02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_16b02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_16b02.lib" /MACHINE:X64  /machine:x64 cmTC_16b02.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getopt referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_16b02.vcxproj]
+C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_16b02.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_16b02.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_16b02.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_16b02.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol getopt referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_16b02.vcxproj]
+  C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_16b02.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_16b02.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Determining if the function isascii exists failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a4655.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:11:59 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4655.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a4655.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a4655.dir\Debug\cmTC_a4655.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a4655.dir\Debug\cmTC_a4655.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isascii /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4655.dir\Debug\\" /Fd"cmTC_a4655.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isascii /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4655.dir\Debug\\" /Fd"cmTC_a4655.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4655.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_a4655.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_a4655.lib" /MACHINE:X64  /machine:x64 cmTC_a4655.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol isascii referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4655.vcxproj]
+C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4655.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4655.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4655.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4655.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol isascii referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4655.vcxproj]
+  C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4655.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_a4655.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3990a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:12:02 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3990a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3990a.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3990a.dir\Debug\cmTC_3990a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3990a.dir\Debug\cmTC_3990a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3990a.dir\Debug\\" /Fd"cmTC_3990a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3990a.dir\Debug\\" /Fd"cmTC_3990a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_3990a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_3990a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_3990a.lib" /MACHINE:X64  /machine:x64 cmTC_3990a.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol mmap referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3990a.vcxproj]
+C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_3990a.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3990a.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3990a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3990a.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol mmap referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3990a.vcxproj]
+  C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_3990a.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3990a.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bf3fd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:12:03 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_bf3fd.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bf3fd.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bf3fd.dir\Debug\cmTC_bf3fd.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bf3fd.dir\Debug\cmTC_bf3fd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf3fd.dir\Debug\\" /Fd"cmTC_bf3fd.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf3fd.dir\Debug\\" /Fd"cmTC_bf3fd.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_bf3fd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_bf3fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/Debug/cmTC_bf3fd.lib" /MACHINE:X64  /machine:x64 cmTC_bf3fd.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_bf3fd.vcxproj]
+C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_bf3fd.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_bf3fd.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_bf3fd.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_bf3fd.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_bf3fd.vcxproj]
+  C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\cmTC_bf3fd.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_bf3fd.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_15409.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:12:22 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_15409.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_15409.dir\Debug\cmTC_15409.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_15409.dir\Debug\cmTC_15409.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15409.dir\Debug\\" /Fd"cmTC_15409.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckTypeSize\SSIZE_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15409.dir\Debug\\" /Fd"cmTC_15409.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CheckTypeSize\SSIZE_T.c
+  SSIZE_T.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(25): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(26): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(27): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(28): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(29): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(25): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(26): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(27): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(28): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+  c:\users\has163\desktop\lab2\build\cmakefiles\checktypesize\ssize_t.c(29): error C2065: 'ssize_t': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_15409.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.62
+
+C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CheckTypeSize/SSIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the setmod exist failed with the following output:
+Change Dir: C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3300c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2020 11:12:28 PM.
+Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3300c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3300c.dir\Debug\".
+  Creating directory "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3300c.dir\Debug\cmTC_3300c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3300c.dir\Debug\cmTC_3300c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3300c.dir\Debug\\" /Fd"cmTC_3300c.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3300c.dir\Debug\\" /Fd"cmTC_3300c.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+c:\users\has163\desktop\lab2\build\cmakefiles\cmaketmp\checksymbolexists.c(8): error C2065: 'setmod': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3300c.vcxproj]
+Done Building Project "C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3300c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3300c.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\has163\desktop\lab2\build\cmakefiles\cmaketmp\checksymbolexists.c(8): error C2065: 'setmod': undeclared identifier [C:\Users\has163\DESKTOP\lab2\build\CMakeFiles\CMakeTmp\cmTC_3300c.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.56
+
+File C:/Users/has163/DESKTOP/lab2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmod
+  return ((int*)(&setmod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

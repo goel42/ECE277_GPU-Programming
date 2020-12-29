@@ -1,0 +1,88 @@
+﻿  Building Custom Rule C:/Users/has163/DESKTOP/lab3/thirdparty/libpng/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/has163/DESKTOP/lab3/build/thirdparty/libpng/CMakeFiles/generate.stamp is up-to-date.
+  example.c
+  png.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\png.c(534): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngpread.c(594): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngpread.c(610): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngpread.c(784): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngpread.c(808): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngread.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngread.c(132): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngread.c(137): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+  pngrio.c
+  pngrtran.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrtran.c(1313): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrtran.c(1689): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrtran.c(1703): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngrutil.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(214): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(224): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(227): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(236): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(281): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(385): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(1112): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(1142): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(1145): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(1241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(2929): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(2944): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(2962): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(2987): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(3336): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(3344): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(3349): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngrutil.c(3364): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngset.c
+  pngtest.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtest.c(1094): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtest.c(1260): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtest.c(674): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtest.c(680): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtest.c(1300): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtest.c(1306): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  pngtrans.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtrans.c(210): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtrans.c(223): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngtrans.c(236): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngwio.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwio.c(56): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngwrite.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwrite.c(450): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwrite.c(546): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwrite.c(551): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+  pngwtran.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwtran.c(257): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngwutil.c
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwutil.c(218): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwutil.c(226): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwutil.c(1259): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwutil.c(1621): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwutil.c(1623): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+c:\users\has163\desktop\lab3\thirdparty\libpng\pngwutil.c(2106): warning C4267: 'initializing': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  Generating Code...
+  png.vcxproj -> C:\Users\has163\DESKTOP\lab3\build\thirdparty\lib\Release\libpng.lib

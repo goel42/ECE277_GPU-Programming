@@ -1,0 +1,77 @@
+﻿  Building NVCC (Device) object Src/Qagent/CMakeFiles/qagent.dir/Debug/qagent_generated_agent.cu.obj
+  agent.cu
+CUSTOMBUILD : nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(161): error : identifier "block" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(162): error : identifier "grid" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(164): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(165): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(166): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(167): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(172): error : identifier "d_qtable" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(172): error : identifier "CHECK" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(181): error : argument of type "float" is incompatible with parameter of type "float *"
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(183): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(184): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(179): warning : variable "ep" was declared but never referenced
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(191): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(192): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(194): error : identifier "CHECK" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(195): error : identifier "d_isAlive" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(196): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(198): error : identifier "grid" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(198): error : identifier "block" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(206): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(208): error : argument of type "float" is incompatible with parameter of type "const void *"
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(208): error : identifier "CHECK" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(216): error : identifier "grid" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(216): error : identifier "block" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(216): error : identifier "d_qtable" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(216): error : "this" may only be used inside a nonstatic member function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(219): warning : missing return statement at end of non-void function "agent_action"
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(224): error : identifier "grid" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(224): error : identifier "block" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(224): error : identifier "d_isAlive" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(224): error : identifier "d_qtable" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(224): error : identifier "gradientDec" is undefined
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(224): error : identifier "learningRate" is undefined
+  
+  31 errors detected in the compilation of "C:/Users/has163/AppData/Local/Temp/tmpxft_00096e58_00000000-10_agent.cpp1.ii".
+CUSTOMBUILD : nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+  agent.cu
+  CMake Error at qagent_generated_agent.cu.obj.Debug.cmake:279 (message):
+    Error generating file
+    C:/Users/has163/DESKTOP/lab3/build/Src/Qagent/CMakeFiles/qagent.dir//Debug/qagent_generated_agent.cu.obj
+  
+  

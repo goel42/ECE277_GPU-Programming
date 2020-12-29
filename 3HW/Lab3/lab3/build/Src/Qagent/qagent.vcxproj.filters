@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab3\Src\Qagent\agent.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab3\build\CMakeFiles\4b48360b892b7683c3ef357247bc82ba\qagent_intermediate_link.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\has163\DESKTOP\lab3\Src\Qagent\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\has163\DESKTOP\lab3\build\Src\Qagent\CMakeFiles\qagent.dir\$(Configuration)\qagent_generated_agent.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\has163\DESKTOP\lab3\build\Src\Qagent\CMakeFiles\qagent.dir\$(Configuration)\qagent_intermediate_link.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{51C76CC7-3A8E-3A46-8B39-61EFDAF7B1BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{4ABD85B6-F3EC-3C44-9E5F-12BA89D25ADC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D089AFE5-4265-3C51-BF7F-F0153B57AA36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

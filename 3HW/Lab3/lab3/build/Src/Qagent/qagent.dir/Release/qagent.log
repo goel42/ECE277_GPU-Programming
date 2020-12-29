@@ -1,0 +1,44 @@
+﻿  Building NVCC (Device) object Src/Qagent/CMakeFiles/qagent.dir/Release/qagent_generated_agent.cu.obj
+  agent.cu
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(50): warning : a __device__ variable "d_action" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(51): warning : a __device__ variable "randState" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(58): warning : a __device__ variable "d_qtable" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(64): warning : a __device__ variable "d_epsilon" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(68): warning : a __device__ variable "d_alive" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(80): warning : a __device__ variable "d_alive" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(89): warning : a __device__ variable "d_epsilon" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(90): warning : a __device__ variable "d_epsilon" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(91): warning : a __device__ variable "epsilon" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(100): warning : a __device__ variable "d_action" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(100): warning : a __device__ variable "d_qtable" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(100): warning : a __device__ variable "randState" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(100): warning : a __device__ variable "d_epsilon" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(101): warning : a __device__ variable "d_action" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(110): warning : a __device__ variable "d_alive" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(110): warning : a __device__ variable "d_action" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(110): warning : a __device__ variable "d_qtable" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(110): warning : a __device__ variable "gamma" cannot be directly read in a host function
+  
+C:/Users/has163/DESKTOP/lab3/Src/Qagent/agent.cu(110): warning : a __device__ variable "alpha" cannot be directly read in a host function
+  
+  agent.cu
+  Building NVCC intermediate link file Src/Qagent/CMakeFiles/qagent.dir/Release/qagent_intermediate_link.obj
+  qagent_generated_agent.cu.obj
+  qagent.vcxproj -> C:\Users\has163\DESKTOP\lab3\build\Src\Qagent\Release\qagent.lib
